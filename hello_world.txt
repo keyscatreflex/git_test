@@ -1,0 +1,4 @@
+Hi all, or whomever it may concern!
+I've successfully set up an enviroment to learn web development on my own.
+I know, i'm impressed at how well written the instructions were on TOP.
+I hope to keep up with the curriculum, and continue learning to full stack!
