@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Additional Lists</title>
+</head>
+<body>
+    <h1>Having fun learning about lists</h1>
+    <p>I'v had the pleasure of playing with lists in previous lessons.
+        This particulat page is not entirely redundant.
+        Instead I would like to exercise some of the concepts I've just recently learned.
+        And that just so happens to be about lists that broadens by current understanding of lists and how they work.
+    </p>
+    <p>I'll start with a common unordered list</p>
+    <ul>
+        <li>Orange</li>
+        <li>Green</li>
+        <li>Blue</li>
+    </ul>
+    <p>The lesson I'm currently reading states that by default, the bullet point will appear next to an unordered list's line item; however, that can be changed in CSS</p>
+    <p><strong>Great!</strong></p>
+    <p>Now that I've created an unordered list, lets continue to an ordered list to the the main differences.</p>
+    <ol>
+        <li>Head north on N halsted St</li>
+        <li>Turn right on W Diversey Pkwy</li>
+        <li>Turn left on N Orchard St</li>
+    </ol>
+    <p>as a developer its cruicial to understand and practice the unique attributes that come with building lists. In the following list I will append the <i>start</i> and <i>reversed</i></p>
+    <ol start="30">
+        <li>Head north on N halsted St</li>
+        <li>Turn right on W Diversey Pkwy</li>
+        <li>Turn left on N Orchard St</li>
+    </ol>
+    <p>As we just mentioned, the <i>reverse</i> attribute also works very nicely</p>
+    <ol reversed>
+        <li>Head north on N halsted St</li>
+        <li>Turn right on W Diversey Pkwy</li>
+        <li>Turn left on N Orchard St</li>
+    </ol>
+    <p>I'm curious, lets see what happened when we appened both attributes at the same time</p>
+    <ol start="100" reversed>
+        <li>Head north on N halsted St</li>
+        <li>Turn right on W Diversey Pkwy</li>
+        <li>Turn left on N Orchard St</li>
+    </ol>
+    <p>Hey! It worked!</p>
+    <p>like with the start attribute, the <i>value</i> attribute can be used on a cnilds line item to append the value of choice to any given line item</p>
+    <p>Here is an example of how we will use the value attribute to force our list to show the value of our choice.</p>
+    <ol>
+        <li>Head north on N halsted St</li>
+        <li value="9">Turn right on W Diversey Pkwy</li>
+        <li>Turn left on N Orchard St</li>
+    </ol>
+    <h2><strong>Bravo!</strong></h2>
+    <p><i>We're getting somewhere</i></p>
+    <p>Now lets go above and beyond and try a different kind of list. This list is called a description list, and it uses a different set of elements to structure the list correctly. a description list is created by using DL and nests elements description terms and description deffenitions like so</p>
+    <dl>
+        <dt>Dinglebery</dt>
+        <dd>Particles of fecal matter stuck to the hair of an animals rear end</dd>
+        <dd>What you call your spouse when you want to flirt</dd>
+        <dt>Heffer</dt>
+        <dd>Your mom</dd>
+        <dd>An enormous cow</dd>
+    </dl>
+    <p>I an really enjoying learning what lists can do, and the format used to create lists. Its now time to go further with nesting lists within each other</p>
+    <p>We will start with an ordered list and nest an unordered list within that</p>
+    <ul>
+        <li>Walk with dog</li>
+        <li>Fold Laundry</li>
+        <li>
+            Go to the grocery and buy:
+            <ul>
+                <li>Milk</li>
+                <li>Bread</li>
+                <li>Cheese</li>
+            </ul>
+        </li>
+        <li>Mow the lawn</li>
+        <li>Make Dinner</li>
+    </ul>
+    <p>Lets change the style of our list using some CSS.</p>
+    <ul>
+        <li>Orange</li>
+        <li>Green</li>
+        <li>Blue</li>
+    </ul>
+</body>
+</html>
